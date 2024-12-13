@@ -20,7 +20,7 @@ class controller extends main
 
     protected $_classname;
 
-       
+
 
 
     function __construct()
@@ -44,12 +44,6 @@ class controller extends main
 
         }
 
-    }
-
-    protected function RegisterModul($name, $version, $link = '')
-    {
-        $data[$name]['name'] = $name;
-        $data[$name]['version'] = $version;
     }
 
 
